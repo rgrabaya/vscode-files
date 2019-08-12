@@ -1,0 +1,7 @@
+1. Vim
+2. Shades of Purple
+3. Prettier
+4. PHP Intelephense
+5. ES7 React/Redux/GraphQL/React-Native snippets
+6. Custom CSS and JS Loader
+7. Fix VSCode Checksums
