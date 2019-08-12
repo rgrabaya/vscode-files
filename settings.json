@@ -83,20 +83,4 @@
     "file:///C:/Users/RG/Documents/VSCode/custom.css"
   ],
   "vscode_custom_css.policy": true,
-  // vetur
-  "vetur.format.defaultFormatterOptions": {
-    "js-beautify-html": {
-      "wrap_attributes": "force-expand-multiline"
-    },
-    "prettyhtml": {
-      "printWidth": 80,
-      "singleQuote": false,
-      "wrapAttributes": false,
-      "sortAttributes": false
-    },
-    "prettier": {
-      "singleQuote": true,
-      "trailingComma": "all"
-    }
-  }
 }
