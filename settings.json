@@ -1,0 +1,102 @@
+{
+  // Vim Settings
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.easymotionMarkerBackgroundColor": "black",
+  "vim.easymotionMarkerForegroundColorOneChar": "white",
+  "vim.easymotionMarkerForegroundColorTwoChar": "white",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [" "],
+      "after": ["leader", "leader", "leader", "b", "d", "w"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-b>": false,
+    "<C-c>": false,
+    "<C-n>": false,
+    "<C-g>": false,
+    "<C-w>": false,
+    "<C-x>": false
+  },
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["<C-r>"],
+      "commands": ["redo"]
+    },
+    {
+      "before": ["<C-d>"],
+      "after": ["g", "b"]
+    }
+  ],
+  // Editor Settings
+  "editor.fontSize": 13,
+  "terminal.integrated.fontWeight": "500",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "off",
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.formatOnPaste": true,
+  "editor.parameterHints.enabled": false,
+  "breadcrumbs.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.showTabs": false,
+  "workbench.settings.editor": "json",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.colorTheme": "Shades of Purple",
+  "window.menuBarVisibility": "hidden",
+  "window.title": "${dirty}${activeEditorShort}",
+  // Prettier settings
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  // PHP
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Git Bash
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  // Custom CSS
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/RG/Documents/VSCode/custom.css"
+  ],
+  "vscode_custom_css.policy": true,
+  // vetur
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 80,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "singleQuote": true,
+      "trailingComma": "all"
+    }
+  }
+}
